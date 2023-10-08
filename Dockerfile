@@ -12,7 +12,7 @@ RUN npm install
 COPY ./ ./
 
 # Expose the port
-EXPOSE 5500
+EXPOSE 3000
 
 # Command to execute when the image is instantiated
 CMD ["npm","start"]
